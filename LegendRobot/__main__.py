@@ -109,8 +109,8 @@ LegendRobot_IMG = START_IMAGE
 LegendRobotG_IMG = "https://telegra.ph/file/e575d1148171cc81c62f3.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [LegendBoy](https://t.me/The_LegendBoy)..
- Those who cannot provide monetary support are welcome to help us develop the bot at @Legend_Userbot.
+ You can support the project by contacting [LegendBoy](https://t.me/Ronin_Fighters_Fd)..
+ Those who cannot provide monetary support are welcome to help us develop the bot at @Ronin_Fighters_Fd.
  """
 
 IMPORTED = {}
@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="ADD ME IN YOUR GROUP ⚡️",
-                                url="t.me/{}?startgroup=true".format(
+                                url="t.me/{Ronin_Fighters_Fd}?startgroup=true".format(
                                     context.bot.username
                                 ),
                             ),
@@ -237,7 +237,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="SUPPORT ⚡️",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/{Ronin_Fighters_Fd}",
                             ),
                             InlineKeyboardButton(
                                 text="UPDATES ⚡️",
@@ -247,7 +247,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="SOURCE CODE ⚡️",
-                                url="https://github.com/LEGEND-OS/LegendRobot",
+                                url="https://github.com//LegendRobot",
                             ),
                         ],
                     ]
