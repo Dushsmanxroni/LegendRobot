@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="ADD ME IN YOUR GROUP ⚡️",
-                                url="t.me/{}?startgroup=true".format(
+                                url="t.me/{Ronin_Fighters_Fd}?startgroup=true".format(
                                     context.bot.username
                                 ),
                             ),
@@ -235,17 +235,17 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="SUPPORT ⚡️",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/{Ronin_Fighters_Fd}",
                             ),
                             InlineKeyboardButton(
                                 text="UPDATES ⚡️",
-                                url="https://t.me/VCUpdates",
+                                url="https://t.me/Ronin_Fighters_Fc",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="SOURCE CODE ⚡️",
-                                url="https://github.com/LEGEND-OS/LegendRobot",
+                                url="https://github.com//LegendRobot",
                             ),
                         ],
                     ]
