@@ -106,11 +106,11 @@ And the following:
 
 LegendRobot_IMG = START_IMAGE
 
-LegendRobotG_IMG = "https://telegra.ph/file/e575d1148171cc81c62f3.jpg"
+LegendRobotG_IMG = "https://telegra.ph/file/eb0a816f1a5e11482eb17.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [LegendBoy](https://t.me/Ronin_Fighters_Fd)..
- Those who cannot provide monetary support are welcome to help us develop the bot at @Ronin_Fighters_Fd.
+ You can support the project by contacting [LegendBoy](https://t.me/Jinkazma_Support)..
+ Those who cannot provide monetary support are welcome to help us develop the bot at @jinkazma_Support.
  """
 
 IMPORTED = {}
@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="ADD ME IN YOUR GROUP ⚡️",
-                                url="t.me/{Ronin_Fighters_Fd}?startgroup=true".format(
+                                url="t.me/{JinKazamaXBot}?startgroup=true".format(
                                     context.bot.username
                                 ),
                             ),
@@ -237,17 +237,17 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="SUPPORT ⚡️",
-                                url=f"https://t.me/{Ronin_Fighters_Fd}",
+                                url=f"https://t.me/{Jinkazma_Support}",
                             ),
                             InlineKeyboardButton(
                                 text="UPDATES ⚡️",
-                                url="https://t.me/Official_LegendBot",
+                                url="https://t.me/jinkazma_Support",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="SOURCE CODE ⚡️",
-                                url="https://github.com//LegendRobot",
+                                url="https://Dushmanxronin",
                             ),
                         ],
                     ]
